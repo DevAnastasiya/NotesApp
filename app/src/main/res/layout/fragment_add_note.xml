@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyish_yellow"
+    android:orientation="vertical"
+    tools:context=".presentation.AddNoteFragment">
+
+    <EditText
+        android:id="@+id/et_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="32dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/et_background_fragment_add_note"
+        android:hint="@string/et_description_hint_fragment_add_note"
+        android:inputType="text"
+        android:maxLines="3"
+        android:paddingHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/et_note_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="32dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/et_background_fragment_add_note"
+        android:gravity="top"
+        android:hint="@string/et_title_hint_fragment_add_note"
+        android:inputType="text"
+        android:paddingHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btn_save_note"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_save_note_fragment_add_note"
+        android:backgroundTint="@null"
+        android:text="@string/btn_add_note_save_text_fragment_add_note"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+</LinearLayout>

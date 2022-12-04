@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+
+    <string name="btn_add_note_save_text_fragment_add_note">Add</string>
+    <string name="et_title_hint_fragment_add_note">Note description</string>
+    <string name="et_description_hint_fragment_add_note">Note title</string>
+
+    <string name="btn_update_note_text_add_note_fragment">Update</string>
+
+</resources>
